@@ -1,0 +1,22 @@
+{
+  "name": "process-db-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for enterprise process architecture data (L1-L5, value streams, agents, KPIs)",
+  "type": "module",
+  "main": "src/server.mjs",
+  "bin": {
+    "process-db-mcp": "./src/server.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node src/test-local.mjs"
+  },
+  "keywords": ["mcp", "model-context-protocol", "enterprise-architecture", "process-analytics"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
